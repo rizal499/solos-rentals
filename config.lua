@@ -2,12 +2,12 @@ config = {}
 
 -- target resource (only one of these can be true)
 -------------------------------------------------------
-config.qbtarget = true  
-config.oxtarget = false  
+config.qbtarget = false  
+config.oxtarget = true  
 -------------------------------------------------------
 
 
-config.pedmodel = 'a_m_m_prolhost_01' -- ped model hash
+config.pedmodel = 'a_m_y_roadcyc_01' -- ped model hash
 
 config.scenario = 'WORLD_HUMAN_CLIPBOARD' -- scenario for ped to play, false to disable
 
@@ -27,27 +27,34 @@ config.locations = {
 
         -----------------------------------------------------
         vehicles = {
-            ['asea']        = {     -- vehicle model name
-                price = 250,        -- ['vehicle'] = price
+            ['bmx']        = {     -- vehicle model name
+                price = 2,        -- ['vehicle'] = price
                 image = 'https://i.imgur.com/gpw2CNy.png',      -- image for menu, false for no image
             },
-            ['sentinel']    = {
-                price = 500, 
+            ['tribike']    = {
+                price = 2, 
                 image = 'https://i.imgur.com/LheKlzT.png',
             },
-            ['bison']       = {
-                price = 1000, 
+            ['tribike2']       = {
+                price = 2, 
                 image = 'https://i.imgur.com/uOvGpSy.png',
             },
-            ['patriot']     = {
-                price = 1500, 
+            ['tribike3']     = {
+                price = 2, 
                 image = 'https://i.imgur.com/LsqIPvJ.png',
             },
-            ['stretch']     = {
-                price = 2000, 
+            ['scorcher']     = {
+                price = 2, 
                 image = 'https://i.imgur.com/pZeUmzV.png',
             },
-
+            ['fixter']     = {
+                price = 2, 
+                image = 'https://i.imgur.com/pZeUmzV.png',
+            },
+            ['cruiser']     = {
+                price = 2, 
+                image = 'https://i.imgur.com/pZeUmzV.png',
+            },
         },
 
         vehiclespawncoords = vector4(212.64, -797.12, 30.87, 339.09), -- where vehicle spawns when rented

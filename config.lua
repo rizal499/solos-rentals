@@ -32,27 +32,27 @@ config.locations = {
                 image = 'https://i.imgur.com/gpw2CNy.png',      -- image for menu, false for no image
             },
             ['tribike']    = {
-                price = 2, 
+                price = 15, 
                 image = 'https://i.imgur.com/LheKlzT.png',
             },
             ['tribike2']       = {
-                price = 2, 
+                price = 15, 
                 image = 'https://i.imgur.com/uOvGpSy.png',
             },
             ['tribike3']     = {
-                price = 2, 
+                price = 15, 
                 image = 'https://i.imgur.com/LsqIPvJ.png',
             },
             ['scorcher']     = {
-                price = 2, 
+                price = 15, 
                 image = 'https://i.imgur.com/pZeUmzV.png',
             },
             ['fixter']     = {
-                price = 2, 
+                price = 15, 
                 image = 'https://i.imgur.com/pZeUmzV.png',
             },
             ['cruiser']     = {
-                price = 2, 
+                price = 15, 
                 image = 'https://i.imgur.com/pZeUmzV.png',
             },
         },

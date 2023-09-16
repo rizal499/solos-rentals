@@ -28,7 +28,7 @@ config.locations = {
         -----------------------------------------------------
         vehicles = {
             ['bmx']        = {     -- vehicle model name
-                price = 2,        -- ['vehicle'] = price
+                price = 15,        -- ['vehicle'] = price
                 image = 'https://i.imgur.com/gpw2CNy.png',      -- image for menu, false for no image
             },
             ['tribike']    = {

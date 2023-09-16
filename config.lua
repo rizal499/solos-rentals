@@ -15,7 +15,7 @@ config.locations = {
     ['legion'] = {
         ped = true, -- if false uses boxzone (below)
 
-        coords = vector4(214.79, -806.52, 30.81, 337.16),
+        coords = vector4(-741.2094, -1312.7386, 5.0004, 52.0938),
         
         -------- boxzone (only used if ped is false) --------
 

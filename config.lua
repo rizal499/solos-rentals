@@ -57,7 +57,7 @@ config.locations = {
             },
         },
 
-        vehiclespawncoords = vector4(212.64, -797.12, 30.87, 339.09), -- where vehicle spawns when rented
+        vehiclespawncoords = vector4(-741.2094, -1312.7386, 5.0004, 52.0938), -- where vehicle spawns when rented
 
     },
 
